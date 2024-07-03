@@ -116,8 +116,8 @@ function loadNextQuestion() {
     nextBtn.style.display = 'none';
 
     if (currentQuestionIndex >= quizData.length) {
-        questionContainer.textContent = "Quiz Over!";
-        optionsContainer.innerHTML = `Final Score: ${score}`;
+        questionContainer.textContent = "Quiz terminé !";
+        optionsContainer.innerHTML = `Score final : ${score}`;
         return;
     }
 
